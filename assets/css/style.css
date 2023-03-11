@@ -101,7 +101,7 @@ details[open] summary::after {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	height: 312px;
+	height: 250px;
 }
 
 .menu a {
@@ -182,6 +182,10 @@ header{
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
+}
+
+header h1 {
+	color: #fff;
 }
 
 /**Button**/

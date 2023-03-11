@@ -69,13 +69,11 @@ h1 {
 
 details {
 	position: fixed;
-	margin-left: 5px;
 }
 
 summary {
-	border-radius: 3px;
 	cursor: pointer;
-	font-size: 35px;
+	font-size: 25px;
 	padding-bottom: 10px;
 }
 
@@ -107,7 +105,7 @@ details[open] summary::after {
 }
 
 .menu a {
-	padding: 12px 27px;
+	padding: 12px 10px;
 	background-image: var(--grad-warm);
 	text-decoration: none;
 	text-align: center;
@@ -283,7 +281,7 @@ section{
 }
 
 .item {
-	width: 40%;
+	width: 60%;
 	margin-top: 1rem;
 	filter: grayscale(100%);
 }
@@ -303,7 +301,8 @@ iframe {
 /**Projects**/
 
 .projects {
-	width: 40%;
+	width: 60%;
+	max-width: 500px;
 }
 
 .desc {

@@ -84,6 +84,7 @@ summary {
 
 summary::after {
 	content: "click me";
+	opacity: 0.8;
 }
 
 summary::marker {
@@ -92,6 +93,7 @@ summary::marker {
 
 details[open] summary::before {
 	content: "close me";
+	opacity: 0.8;
 }
 
 details[open] summary::after {
@@ -174,7 +176,7 @@ details[open] summary::after {
 
 /**Header**/
 
-main{
+header{
 	width: 100%;
 	height: 100vh;
 	display: flex;

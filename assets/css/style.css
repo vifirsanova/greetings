@@ -3,13 +3,15 @@
 :root {
 	--grad-warm: linear-gradient(to right,#e052a0,#f15c41);
 	--grad-cold: linear-gradient(to right,#3ec7e0,#526bf4);
+	--base-color: #111111;
+	--text-color: #fff;
 }
 
 /**Light mode**/
 
 body.light {
-	background-color: #fff;
-	color: #111111;
+	--base-color: #fff;
+	--text-color: #111111;
 	--grad-warm: linear-gradient(to right,#3ec7e0,#526bf4);
 	--grad-cold: linear-gradient(to right,#e052a0,#f15c41);
 }
@@ -19,15 +21,36 @@ body{
 	font-weight: 100;
 	font-size: 15px;
 	line-height: 1.7;
-	color: #fff;
-	background-color: #111111;
+	color: var(--text-color);
+	background-color: var(--base-color);
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	font-size: 40px;
+	font-weight: 10px;
 }
 
 p {
 	margin: 10px;
 	padding-left: 130px;
-	padding-top: 10px;
+	padding-top: 150px;
 	}
+	
+div.container {
+	position: fixed;
+	width: 100%;
+	background-color: var(--base-color);
+	padding: 0;
+	margin: -10px;
+}
+
+a{
+	text-decoration: none;
+	color: var(--text-color);
+}
 	
 /**Scroll button**/
 

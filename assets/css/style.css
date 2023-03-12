@@ -371,18 +371,18 @@ a {
 }
 
 .background_a{
-	background-image: url("https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80");
+	background-image: url("https://images.unsplash.com/photo-1499980762202-04245017d5bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
-.background_a h1, .background_b h1{
+.background_b h1{
 	color: #fff;
 }
 
 .background_b{
-	background-image: url("https://images.unsplash.com/photo-1625604029887-45f9c2f7cbc9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80");
+	background-image: url("https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -390,4 +390,5 @@ a {
 
 .background_b h1{
 	margin-top: 50px;
+	color: #111111;
 }

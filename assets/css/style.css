@@ -296,6 +296,7 @@ section{
 iframe {
 	margin-top: 1rem;
 	border: none;
+	border-radius: 3px;
 }
 
 /**Projects**/
